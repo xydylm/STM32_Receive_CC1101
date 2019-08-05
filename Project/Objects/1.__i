@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\User -I..\Library\CMSIS -I..\Library\STM32F10x_StdPeriph_Driver\inc
+-I E:\WORK_space\FWLIB_UART\Project\RTE
+-I "D:\program files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"
+-I "D:\program files\Keil_v5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\objects\1.o --omf_browse .\objects\1.crf --depend .\objects\1.d "C:\Users\XUZ\Desktop\1.c"
